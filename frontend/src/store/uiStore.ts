@@ -30,7 +30,7 @@ export const useUIStore = create<UIStore>((set) => ({
   isSearchOpen: false,
   isFetching: false,
   isChatOpen: false,
-  currentView: 'news',
+  currentView: 'learning',
   setActiveCategory: (cat) => set({ activeCategory: cat }),
   setActiveSource: (src) => set({ activeSource: src }),
   setSelectedArticle: (article) => set({ selectedArticle: article }),
