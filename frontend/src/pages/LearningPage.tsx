@@ -40,7 +40,7 @@ interface PhaseBlockProps {
   globalIndex: number;
 }
 
-function PhaseBlock({ phase, difficultyFilter, categoryName, globalIndex }: PhaseBlockProps) {
+function PhaseBlock({ phase, difficultyFilter, globalIndex }: PhaseBlockProps) {
   const [expanded, setExpanded] = useState(true);
 
   const filteredResources = phase.resources.filter(r =>
